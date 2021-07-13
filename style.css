@@ -1,0 +1,107 @@
+body {
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    font-family: roboto;
+    margin: 0%;
+}
+
+
+.top_word {
+    position: relative;
+    margin-left: 80%;
+    margin-top: 2.5%;
+    font-size: 14px;
+   /* border: solid 1px black;'*/
+    display: inline-flex;
+    width: 170px;
+    height: 25px;
+}
+
+.top_word a {
+text-decoration: none;
+color: black;
+padding-left: 8px;
+}
+
+
+.top_word .gmail {
+
+    padding-right:20px;
+}
+
+.top_word .images {
+    
+    padding-right:20px;
+}
+
+.top_word .menus {
+    
+    padding-right:20px;
+}
+
+.top_word .profile {
+    
+    padding-right:20px;
+}
+
+.google {
+  
+    margin: 0 40%;
+
+}
+
+.google img {
+  
+    width: 252px;
+    height: 92px;
+    padding: 10px;
+    margin: 0 0%;
+    margin-top: 5%;
+
+}
+
+.search {
+    width: 500px;
+    height: 25px;
+    margin: 0px 30%;
+    margin-top: 0%;
+    border-radius: 55px;
+    border: solid rgb(157, 153, 158) 0.5px;
+    text-decoration: none;
+    padding: 10px 25px;
+}
+
+.bottom_text {
+    display: inline-flex;
+    margin: 0px 39%;
+    margin-top: 2%;
+    width: 270px;
+    font-size: 11px;
+    padding: 10px;
+
+}
+
+.google_search {
+ 
+    color: black;
+    margin-right: 30px;
+    border-radius: 7px;
+    width: 200px;
+    padding: 12px;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.feeling_lucky {
+ 
+    color: black;
+    border-radius: 7px;
+    width: 200px;
+    padding: 12px;
+    background-color: rgb(245, 245, 245);
+    text-align: center;
+    text-decoration: none;
+
+}

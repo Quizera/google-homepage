@@ -46,47 +46,63 @@ padding-left: 8px;
 
 .google {
   
-    margin: 0 40%;
+    display: flex;
+    justify-content: center;
 
 }
 
 .google img {
   
-    width: 252px;
-    height: 92px;
-    padding: 10px;
-    margin: 0 0%;
-    margin-top: 5%;
+    width: 282px;
+    height: 128px;
+    padding: 0px;
+    margin-top: 10%;
 
 }
 
 .search {
-    width: 500px;
-    height: 25px;
-    margin: 0px 30%;
+    width: 510px;
+    height: 21px;
+    /* margin: 0px 36%; */
     margin-top: 0%;
     border-radius: 55px;
-    border: solid rgb(157, 153, 158) 0.5px;
+    border: solid rgb(193 193 193) 0.3px;
     text-decoration: none;
-    padding: 10px 25px;
+    padding: 14px 35px;
+}
+
+.searchbox{
+    display: flex;
+    justify-content: center;
 }
 
 .bottom_text {
-    display: inline-flex;
-    margin: 0px 39%;
-    margin-top: 2%;
-    width: 270px;
-    font-size: 11px;
-    padding: 10px;
+    display: flex;
+    justify-content: center;
+    margin-top: 2.5%;
+    width: 100%;
+    font-size: 13px;
+    padding: 0%;
 
 }
 
 .google_search {
  
-    color: black;
-    margin-right: 30px;
+        color: #696969;
+        margin-right: 30px;
+        border-radius: 7px;
+        width: 130px;
+        padding: 12px;
+        background-color: rgb(245, 245, 245);
+        text-align: center;
+        text-decoration: none;
+    }
+
+.feeling_lucky {
+ 
+    color: #696969;
     border-radius: 7px;
-    width: 200px;
+    width: 130px;
     padding: 12px;
     background-color: rgb(245, 245, 245);
     text-align: center;
@@ -94,14 +110,60 @@ padding-left: 8px;
 
 }
 
-.feeling_lucky {
- 
-    color: black;
-    border-radius: 7px;
-    width: 200px;
-    padding: 12px;
-    background-color: rgb(245, 245, 245);
-    text-align: center;
-    text-decoration: none;
+.offered {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+    font-size: 14px;
+}
 
+.offered a {
+   text-decoration: none;
+   color: green;
+}
+
+.footer {
+    margin: 0%;
+    display: flex;
+    justify-content: flex-start;
+    height: 110px;
+    background-color:rgb(224, 224, 224);
+    bottom: 0px;
+    margin-top: 17%;
+    position: fixed;
+    width: 100%;
+}
+
+.footer p { 
+
+    color: #666666  ;
+    height: 2%;
+    width: 100%;
+    padding-left: 2%;
+    font-size: 14px;
+    bottom: 1%;
+    margin-top: 1%;
+}
+
+.down_link{
+
+    margin: 0%;
+    display: flex;
+    justify-content: flex-start;
+    height: 10px;
+    background-color:rgb(224, 224, 224);
+    bottom: 3%;
+    margin-top: 0%;
+    position: fixed;
+    width: 100%;
+    text-decoration: none;
+    border-top: solid rgb(216, 216, 216) 1px;
+    padding-top: 20px;
+}
+
+.down_link a {
+
+    text-decoration: none;
+    color: grey;
+    padding-right: 14px
 }
